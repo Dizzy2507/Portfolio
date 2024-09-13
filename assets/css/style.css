@@ -10,7 +10,7 @@
 
   /** colors*/
 
-  --cadet-blue-crayola: padding-block;
+  --cadet-blue-crayola: rgb(167, 165, 165);
   --gold-web-golden: hsl(50, 100%, 54%);
   --vivid-sky-blue: purple;
   --midnight-blue: rgb(76, 3, 108);
@@ -327,7 +327,10 @@ body {
 .abs-img,
 .abs-icon { display: none; }
 
-.about { padding-block-start: 120px; }
+.about { 
+  background-image: url("../images/About-bg.png");
+  padding-block-start: 120px; 
+}
 
 .about-banner {
   background-color: var(--independence);
